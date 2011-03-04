@@ -6,6 +6,7 @@ gem 'gravatar_image_tag'
 gem "haml-rails", ">= 0.3.4"
 gem "haml"
 gem "factory_girl_generator", ">= 0.0.1", :group => [:development, :test]
+gem 'hassle', :git => 'git://github.com/koppen/hassle.git'
 # gem "compass", ">= 0.10.6"
 
 group :development do
