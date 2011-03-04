@@ -1,86 +1,85 @@
-/* line 1, sass/custom.scss */
 .container {
   width: 710px;
 }
 
-/* line 4, sass/custom.scss */
 body {
   background: #cff;
 }
 
-/* line 7, sass/custom.scss */
 header {
   padding-top: 20px;
 }
-/* line 9, sass/custom.scss */
+
 header img {
   padding: 1em;
   background: #fff;
 }
 
-/* line 13, sass/custom.scss */
 section {
   margin-top: 1em;
   font-size: 120%;
   padding: 20px;
   background: #fff;
 }
-/* line 18, sass/custom.scss */
+
 section h1 {
   font-size: 200%;
 }
 
 /* Links */
-/* line 23, sass/custom.scss */
+
 a {
   color: #09c;
   text-decoration: none;
 }
-/* line 26, sass/custom.scss */
+
 a:hover {
   color: #069;
   text-decoration: underline;
 }
-/* line 29, sass/custom.scss */
+
 a:visited {
   color: #069;
 }
 
 /* Navigation */
-/* line 34, sass/custom.scss */
+
 nav {
   float: right;
+}
+
+nav {
   background-color: white;
   padding: 0 0.7em;
   white-space: nowrap;
 }
-/* line 39, sass/custom.scss */
+
 nav ul {
   margin: 0;
   padding: 0;
 }
-/* line 42, sass/custom.scss */
+
 nav ul li {
   list-style-type: none;
   display: inline-block;
   padding: 0.2em 0;
 }
-/* line 46, sass/custom.scss */
+
 nav ul li a {
   padding: 0 5px;
   font-weight: bold;
 }
-/* line 49, sass/custom.scss */
+
 nav ul li a:visited {
   color: #09c;
 }
-/* line 51, sass/custom.scss */
+
 nav ul li a:hover {
   text-decoration: underline;
 }
 
 /* Sign up button */
-/* line 56, sass/custom.scss */
+
 a.signup_button {
   margin-left: auto;
   margin-right: auto;
@@ -95,15 +94,15 @@ a.signup_button {
 }
 
 /* Round corners */
-/* line 70, sass/custom.scss */
+
 .round {
-  -moz-border-radius: 10px;
+  -moz-border-radius:    10px;
   -webkit-border-radius: 10px;
-  border-radius: 10px;
+  border-radius:         10px;
 }
 
 /*Footer styling*/
-/* line 77, sass/custom.scss */
+
 footer {
   text-align: center;
   margin-top: 10px;
@@ -111,24 +110,23 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 83, sass/custom.scss */
+
 footer nav {
   float: none;
 }
 
 /* User show page */
-/* line 88, sass/custom.scss */
+
 table.profile {
   width: 100%;
   margin-bottom: 0;
 }
 
-/* line 93, sass/custom.scss */
 td.main {
   width: 70%;
   padding: 1em;
 }
-/* line 96, sass/custom.scss */
+
 td.sidebar {
   width: 30%;
   padding: 1em;
@@ -136,30 +134,26 @@ td.sidebar {
   background: #ffc;
 }
 
-/* line 102, sass/custom.scss */
 .profile img.gravatar {
   border: 1px solid #999;
   margin-bottom: -15px;
 }
 
-/* line 107, sass/custom.scss */
 div.field, div.actions {
   margin-bottom: 10px;
 }
 
-/* line 110, sass/custom.scss */
 .field_with_errors {
   margin-top: 10px;
   padding: 2px;
   background-color: red;
   display: table;
 }
-/* line 115, sass/custom.scss */
+
 .field_with_errors label {
   color: #fff;
 }
 
-/* line 118, sass/custom.scss */
 #error_explanation {
   width: 400px;
   border: 2px solid red;
@@ -168,7 +162,7 @@ div.field, div.actions {
   margin-bottom: 20px;
   background-color: #f0f0f0;
 }
-/* line 125, sass/custom.scss */
+
 #error_explanation h2 {
   text-align: left;
   font-weight: bold;
@@ -178,13 +172,13 @@ div.field, div.actions {
   background-color: #c00;
   color: #fff;
 }
-/* line 133, sass/custom.scss */
+
 #error_explanation p {
   color: #333;
   margin-bottom: 0;
   padding: 5px;
 }
-/* line 137, sass/custom.scss */
+
 #error_explanation ul li {
   font-size: 12px;
   list-style: square;
